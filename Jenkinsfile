@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building Apk test for debug..'
+                sh './gradlew tasks'
             }
         }
         stage('Test') {
