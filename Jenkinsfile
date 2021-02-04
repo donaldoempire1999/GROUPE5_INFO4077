@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Apk test for debug..'
-                sh './gradlew gradlew assembleDebug'
+                sh './gradlew assembleDebug'
             }
         }
         stage('Test') {
