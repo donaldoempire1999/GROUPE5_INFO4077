@@ -58,7 +58,7 @@ class WaitTests {
     }
 
     @Test
-    public void testCall() {
+    public void testCalling() {
 
 
         // Click on DELETE/CLR button to clear result text box before running test.
