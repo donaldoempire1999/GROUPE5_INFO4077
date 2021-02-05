@@ -60,13 +60,10 @@ class WaitTests {
     @Test
     public void testCalling() {
 
-
         // Click on DELETE/CLR button to clear result text box before running test.
         driver.findElements(By.xpath("//android.widget.Button")).get(0).click();
-
         // Click on number 2 button.
         driver.findElement(By.name("7")).click();
-
         driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
     }
 
